@@ -33,6 +33,5 @@ export const Navbar = () => `
         <button id="themeBtn">☀</button>
     </li>
 </ul>
-<h2>Ignacio Pérez</h2>
 </nav>
 `;
