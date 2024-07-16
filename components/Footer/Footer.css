@@ -5,6 +5,10 @@
   font-family: 'Rubik', sans-serif;
 }
 
+body {
+  margin-bottom: 2rem; /* Añade un margen inferior al body para separarlo del footer */
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -12,20 +16,22 @@ footer {
   padding: 0 8rem;
   gap: 4rem;
   flex-wrap: wrap;
-  margin-top: 2rem ;
+  margin-top: 50px;
 }
 
-div {
+footer div {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
 }
 
 @media (max-width: 1200px) {
   footer {
     padding: 0 4rem;
     gap: 2rem;
+  }
+  footer div {
+    flex-direction: row;
   }
 }
 
@@ -38,14 +44,7 @@ div {
   footer > div {
     flex-direction: row;
     justify-content: center;
-    flex-wrap: nowrap;
   }
-}
-
-footer > div {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: nowrap;
 }
 
 footer > h2 {
@@ -70,4 +69,18 @@ button:hover {
 button img {
   height: 24px;
   width: 24px;
+}
+
+@media (max-width: 770px) {
+  button span {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  footer > div > a > h4 {
+    display: none;
+  }
+  footer > div > a > img {
+    display: inline-block;
+  }
 }
