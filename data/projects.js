@@ -50,7 +50,6 @@ export const projects = [
     image: "./assets/reto5CSS.png",
     tech: ["HTML5", "CSS3"],
     github: "https://github.com/IgnacioP46/reto-5-css.git",
-    link: "file:///C:/Users/%C3%81lvaro/Desktop/ThePowe_Master/css3/06-modelo-caja/reto%205/index.html",
     tipo: "entrega"
   },
   {
@@ -59,7 +58,6 @@ export const projects = [
     image: "./assets/reto4CSS.png",
     tech: ["HTML5", "CSS3"],
     github: "https://github.com/IgnacioP46/reto-4-css.git",
-    link: "file:///C:/Users/%C3%81lvaro/Desktop/ThePowe_Master/css3/09-pseudo/reto%204/index.html",
     tipo: "entrega"
   },
   {
@@ -68,7 +66,6 @@ export const projects = [
     image: "./assets/reto3CSS.png",
     tech: ["HTML5", "CSS3"],
     github: "https://github.com/IgnacioP46/reto-3-css.git",
-    link: "file:///C:/Users/%C3%81lvaro/Desktop/ThePowe_Master/css3/02-selectores/reto%203/index.html",
     tipo: "entrega"
   },
   {
@@ -77,7 +74,6 @@ export const projects = [
     image:"./assets/reto2CSS.png",
     tech: ["HTML5", "CSS3"],
     github: "https://github.com/IgnacioP46/css-reto-2.git",
-    link: "file:///C:/Users/%C3%81lvaro/Desktop/ThePowe_Master/css3/02-selectores/reto2/index.html",
     tipo: "entrega"
   },{
     title: "Reto CSS 1",
@@ -85,7 +81,6 @@ export const projects = [
     image:"./assets/reto1CSS.png",
     tech: ["HTML5", "CSS3"],
     github: "https://github.com/IgnacioP46/reto1css.git",
-    link: "file:///C:/Users/%C3%81lvaro/Desktop/ThePowe_Master/css3/01%20cssprueba/reto1/retocss.html",
     tipo: "entrega"
   },
   {
@@ -94,7 +89,6 @@ export const projects = [
       image: "./assets/proyecto-html5.png",
       tech: ["HTML5"],
       github: "https://github.com/IgnacioP46/html5_arquitectura_informacion.git",
-      link: "file:///C:/Users/%C3%81lvaro/Desktop/ThePowe_Master/html5/html5_arquitectura_informacion/index.html",
       tipo: "entregas"
     },
   ];
