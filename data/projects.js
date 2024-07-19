@@ -138,7 +138,7 @@ export const projects = [
         "Disponibilidad total"
     ],
     sitioWeb: "https://www.linkedin.com/in/ignacio-perez-alvarez/",
-    foto: "../public/assets/miFotoCV.jpg"
+    foto: "../public/assets/miFotoCV.png"
 };
 
 export default CVInfo;
