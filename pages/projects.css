@@ -1,6 +1,7 @@
 .projects {
     padding: 0 8rem;
     min-height: max-content;
+    min-width: max-content;
     padding-bottom: 4rem;
     display: flex;
     flex-direction: column;
