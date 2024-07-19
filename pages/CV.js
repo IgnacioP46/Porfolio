@@ -7,7 +7,7 @@ export const CV = () => {
     cleanPage(main);
     main.innerHTML = `
         <div class="CV">
-            <img class="imagen" src="./public/assets/miFotoCV.png" alt="miFotoCV">
+            <img class="imagen" src="./assets/miFotoCV.png" alt="miFotoCV">
             
             <div class="contacto">
                 <h2>Contacto</h2>
