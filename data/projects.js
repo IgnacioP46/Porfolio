@@ -2,11 +2,11 @@ export const projects = [
   {
     title: "Porfolio",
     description: "se trata de esta misma pagina en la que estas que he montado yo",
-    image: "./assets/.png",
+    image: "./assets/proyectoPorfolio.png",
     tech: ["HTML5", "CSS3", "JavaScript", "VITE"],
-    github: "",
-    link: "",
-    tipo: "trabajo"
+    github: "https://github.com/IgnacioP46/Porfolio.git",
+    link: "https://ignacioperez.netlify.app",
+    tipo: "Proyecto"
   },
   {
     title: "Color Flipper",
