@@ -38,5 +38,11 @@ nav {
     color: var(--highlight);
   }
 
-
+      @media (max-width: 480px) {
+    nav > ul {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+  
   
