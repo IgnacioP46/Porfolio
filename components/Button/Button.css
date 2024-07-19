@@ -24,3 +24,9 @@
   .my-btn:hover {
     background-color: var(--highlight);
   }
+
+     @media (max-width: 770px) {
+    .my-btn {
+      width: 3rem;
+    }
+  }
