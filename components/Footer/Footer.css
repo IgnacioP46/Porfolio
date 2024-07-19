@@ -72,6 +72,10 @@ button img {
 }
 
 @media (max-width: 770px) {
+  footer {
+    display: flex;
+    justify-content: center;
+  }
   button span {
     display: none;
   }
