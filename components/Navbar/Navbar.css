@@ -11,14 +11,18 @@ nav {
   @media (max-width: 770px) {
     nav {
       padding: 0 2rem;
+      display: flex;
+      justify-content: center;
     }
   }
   
   nav > ul {
     display: flex;
     gap: 3rem;
+    align-items: flex-end;
+    justify-self: left;
   }
-  
+
   nav button {
     background: none;
     border: none;
@@ -34,9 +38,5 @@ nav {
     color: var(--highlight);
   }
 
-  #CVlink::before {
-    content: url(../public/assets/logocv.png);
-    height: 5px;
-    margin-right: 10px;
-}
+
   
