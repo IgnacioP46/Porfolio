@@ -25,7 +25,7 @@
     background-color: var(--highlight);
   }
 
-     @media (max-width: 770px) {
+     @media (max-width: 480px) {
     .my-btn {
       width: 3rem;
     }
