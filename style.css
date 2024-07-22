@@ -8,13 +8,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
-  --primary-dark: whitesmoke;
-  --bg-dark: #111111;
-  --primary-light: #111111;
-  --bg-light: whitesmoke;
-  --highlight: #6cace4;
+  --primary-dark: rgb(0, 0, 0);
+  --bg-dark: #f9f9f9;
+  --primary-light: #ffffff;
+  --bg-Button: black;
+  --color-button: white;
+  --bg-light: rgb(2, 2, 2);
+  --highlight: #00BEDB;
   --divider: rgb(164, 164, 164);
 }
+
 
 * {
   margin: 0;
