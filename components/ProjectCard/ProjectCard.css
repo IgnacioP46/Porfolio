@@ -49,7 +49,6 @@
   color: var(--highlight);
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
   .project-card {
     padding: 0.5rem;
