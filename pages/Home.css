@@ -8,7 +8,15 @@
     gap: 3rem;
     margin-top: 60px;
   }
-  
+
+.home > a {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .home > a:hover {
+    color: var(--highlight);
+  }
+
   @media (max-width: 700px) {
     .home {
       padding: 0 2rem;
