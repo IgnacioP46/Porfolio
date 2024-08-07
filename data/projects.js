@@ -5,7 +5,7 @@ export const projects = [
     image: "./assets/proyectoWebAsincrona.png",
     tech: ["HTML5", "CSS3", "JavaScript", "VITE", "unsplash"],
     github: "https://github.com/IgnacioP46/Porfolio.git",
-    link: "https://github.com/IgnacioP46/Proyecto-Web-As-crono.git",
+    link: "https://webasincrona.netlify.app",
     tipo: "Proyecto"
   },
   {
