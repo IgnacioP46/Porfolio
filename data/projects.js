@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Web Asincrona",
+    description: "aqui vemos el uso de las llamadas a apis",
+    image: "./assets/proyectoWebAsincrona.png",
+    tech: ["HTML5", "CSS3", "JavaScript", "VITE", "unsplash"],
+    github: "https://github.com/IgnacioP46/Porfolio.git",
+    link: "https://github.com/IgnacioP46/Proyecto-Web-As-crono.git",
+    tipo: "Proyecto"
+  },
+  {
     title: "Porfolio",
     description: "se trata de esta misma pagina en la que estas que he montado yo",
     image: "./assets/proyectoPorfolio.png",
