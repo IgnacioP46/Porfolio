@@ -35,71 +35,6 @@ export const projects = [
     link: "https://discosrizos.netlify.app/",
     tipo: "proyecto"
   },
-  {
-    title: "Proyecto de grid",
-    description: "Aqui tenemos una landing de una web de venta de discos",
-    image: "./assets/proyectoGrid.png",
-    tech: ["HTML5", "CSS3"],
-    github: "https://github.com/IgnacioP46/Proyecto-1-.git",
-    link: "https://miprimerproyectoprometeo.netlify.app/",
-    tipo: "Proyecto"
-  },
-  {
-    title: "Proyecto de Flex",
-    description: "esto es una landing de un porfolio para una pintora",
-    image: "./assets/proyectoFlex.png",
-    tech: ["HTML5", "CSS3"],
-    github: "https://github.com/IgnacioP46/trabajo-final-flex.git",
-    link: "https://estherpaint.netlify.app/",
-    tipo: "proyecto"
-  },
-  {
-    title: "Reto CSS 5",
-    description: "creamos una targeta con CSS para ver los modelos de caja",
-    image: "./assets/reto5CSS.png",
-    tech: ["HTML5", "CSS3"],
-    github: "https://github.com/IgnacioP46/reto-5-css.git",
-    tipo: "entrega"
-  },
-  {
-    title: "Reto CSS 4",
-    description: "haciendo uso de las pseudos para colocar imagenes antes de textos",
-    image: "./assets/reto4CSS.png",
-    tech: ["HTML5", "CSS3"],
-    github: "https://github.com/IgnacioP46/reto-4-css.git",
-    tipo: "entrega"
-  },
-  {
-    title: "Reto CSS 3",
-    description: 'haciendo uso del combinador más apropiado, cambiar a color “grey” y font-style:italic todos los elementos “p” descendientes de un elemento “section”.',
-    image: "./assets/reto3CSS.png",
-    tech: ["HTML5", "CSS3"],
-    github: "https://github.com/IgnacioP46/reto-3-css.git",
-    tipo: "entrega"
-  },
-  {
-    title: "Reto CSS 2",
-    description: "Aqui probamos a usar los selectores con CSS",
-    image:"./assets/reto2CSS.png",
-    tech: ["HTML5", "CSS3"],
-    github: "https://github.com/IgnacioP46/css-reto-2.git",
-    tipo: "entrega"
-  },{
-    title: "Reto CSS 1",
-    description: "estructuracion muy basica de una web con CSS",
-    image:"./assets/reto1CSS.png",
-    tech: ["HTML5", "CSS3"],
-    github: "https://github.com/IgnacioP46/reto1css.git",
-    tipo: "entrega"
-  },
-  {
-      title: "html5_arquitectura_informacion",
-      description: "En este primer proyecto vemos como escribir en HTML5 de una manera semanticamente correcta y bien estructurada",
-      image: "./assets/proyecto-html5.png",
-      tech: ["HTML5"],
-      github: "https://github.com/IgnacioP46/html5_arquitectura_informacion.git",
-      tipo: "entregas"
-    },
   ];
   
 
@@ -147,7 +82,7 @@ export const projects = [
         "Disponibilidad total"
     ],
     sitioWeb: "https://www.linkedin.com/in/ignacio-perez-alvarez/",
-    foto: "./assets/miFotoCV.png"
+    foto: "../public/assets/miFotoCV.png"
 };
 
 export default CVInfo;
