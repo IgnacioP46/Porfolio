@@ -2,12 +2,12 @@ export const projects = [
   {
     title: "Web Asincrona",
     description: "aqui vemos el uso de las llamadas a apis",
-    image: "./assets/proyectoWebAsincrona.png",
+    image: "../assets/proyectoWebAsincrona.png",
     tech: ["HTML5", "CSS3", "JavaScript", "VITE", "unsplash"],
-    github: "https://github.com/IgnacioP46/Porfolio.git",
-    link: "https://webasincrona.netlify.app",
+    github: "https://github.com/IgnacioP46/Proyecto-Web-Asincrona.git",
+    link: "https://webasincrona.netlify.app/",
     tipo: "Proyecto"
-  },
+  },,
   {
     title: "Porfolio",
     description: "se trata de esta misma pagina en la que estas que he montado yo",
