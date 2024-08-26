@@ -7,7 +7,7 @@ export const projects = [
     github: "https://github.com/IgnacioP46/Proyecto-Web-Asincrona.git",
     link: "https://webasincrona.netlify.app/",
     tipo: "Proyecto"
-  },,
+  },
   {
     title: "Porfolio",
     description: "se trata de esta misma pagina en la que estas que he montado yo",
