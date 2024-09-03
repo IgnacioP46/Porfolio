@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Web de Componentes JavaScript",
     description: "aqui vemos otra forma mas de como ordenar colocar y usar los distintos componentes",
-    image: "../assets/proyectoComponentes.png",
+    image: "./assets/proyectoComponentes.png",
     tech: ["HTML5", "CSS3", "JavaScript", "VITE",],
     github: "https://github.com/IgnacioP46/Proyecto-Web-Componente.git",
     link: "https://cvignacioperez.netlify.app/",
