@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Web de Componentes JavaScript",
+    description: "aqui vemos otra forma mas de como ordenar colocar y usar los distintos componentes",
+    image: "../assets/proyectoComponentes.png",
+    tech: ["HTML5", "CSS3", "JavaScript", "VITE",],
+    github: "https://github.com/IgnacioP46/Proyecto-Web-Componente.git",
+    link: "https://cvignacioperez.netlify.app/",
+    tipo: "Proyecto"
+  },
+  {
     title: "Web Asincrona",
     description: "aqui vemos el uso de las llamadas a apis",
     image: "../assets/proyectoWebAsincrona.png",
@@ -10,7 +19,7 @@ export const projects = [
   },
   {
     title: "Porfolio",
-    description: "se trata de esta misma pagina en la que estas que he montado yo",
+    description: "montamos una SPA con nuestros trabajos y CV",
     image: "./assets/proyectoPorfolio.png",
     tech: ["HTML5", "CSS3", "JavaScript", "VITE"],
     github: "https://github.com/IgnacioP46/Porfolio.git",
@@ -35,7 +44,7 @@ export const projects = [
     link: "https://discosrizos.netlify.app/",
     tipo: "proyecto"
   },
-  ];
+];
   
 
   export const CVInfo = {
