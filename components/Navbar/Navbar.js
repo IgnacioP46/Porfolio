@@ -1,10 +1,17 @@
 import "./Navbar.css";
 
-export const changeTheme = () => {
-  const themeBtn = document.querySelector("#themeBtn");
-  themeBtn.addEventListener("click", () => {
+document.body.className = localStorage.getItem("theme") || "";
+
+export const cambioTema = () => {
+  const cambioColor = document.querySelector("#cambioColor");
+  cambioColor.addEventListener("click", () => {
     document.body.classList.toggle("light");
-    changeText();
+    if (document.body.className === "light"){
+      localStorage.setItem("theme", "light");
+    } else {
+      localStorage.setItem("theme", "")
+    }
+    cambioTexto();
   });
 };
 
