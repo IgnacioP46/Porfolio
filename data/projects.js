@@ -2,7 +2,7 @@ export const projects = [
    {
     title: "Murmullo Records",
     description: "Murmullo Records es una tienda web de música especializada en la venta de vinilos y cassettes. El proyecto está diseñado para ofrecer una experiencia de usuario fluida y moderna, donde los clientes pueden explorar una amplia colección de discos, ver detalles de cada producto, agregar artículos al carrito y realizar compras de manera sencilla.",
-    image: "./assets/prpyectoFinal.png",
+    image: "./assets/proyectoFinal.png",
     tech: ["HTML5", "CSS3", "JavaScript", "VITE",],
     github: "https://github.com/IgnacioP46/ProyectoFinal.git",
     link: "https://murmullorecords.netlify.app/",
