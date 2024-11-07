@@ -7,8 +7,4 @@ export const Button = (icon, text, link) => `
   </a>
 `;
 
-
-//prueva portfolio 
-
-aszdfghbjkml,´-
   
