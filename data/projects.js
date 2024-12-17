@@ -99,7 +99,9 @@ export const CVInfo = {
     "HTML5",
     "CSS",
     "JavaScript",
-    "VITE"
+    "VITE",
+     "JAVA",
+     "SQL"
   ],
   informacionAdicional: [
     "Carné de conducir B1 y A",
