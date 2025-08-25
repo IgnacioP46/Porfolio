@@ -1,36 +1,82 @@
 # Porfolio
 
-Sitio web personal de tipo portfolio, desarrollado con HTML, CSS, JavaScript y un toque de TypeScript.
+**Porfolio** es un sitio web estilo portfolio personal, construido con HTML, CSS, JavaScript y TypeScript.
 
 ---
 
-##  Estructura del repositorio
+## 📑 Tabla de Contenidos
 
-- **`components/`** – Componentes reutilizables de la interfaz.
-- **`data/`** – Datos estáticos o configuraciones (por ejemplo, proyectos, textos).
-- **`pages/`** – Páginas individuales del sitio (como inicio, proyectos, contacto).
-- **`public/assets/`** – Archivos estáticos como imágenes, iconos o recursos multimedia.
-- **`utils/`** – Utilidades y funciones genéricas.
-- **`index.html`**, **`main.js`**, **`style.css`** – Archivos principales para la página, lógica y estilos.
-- **`package.json`**, **`package-lock.json`** – Dependencias del proyecto.
-- **`stackbit.config.ts`** – Configuraciones específicas del framework o generador de sitio usado.  
-:contentReference[oaicite:2]{index=2}
+<details>
+  <summary>Ver secciones</summary>
 
----
+- [Sobre el Proyecto](#sobre-el-proyecto)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Tecnologías](#tecnologías)
+- [Instalación y Ejecución Local](#instalación-y-ejecución-local)
+- [Despliegue](#despliegue)
+- [Contribuir](#contribuir)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
 
-##  Tecnologías utilizadas
-
-- **HTML**, **CSS**, y **JavaScript** (mayoritariamente JavaScript, 59.8 %, CSS 37.0 %, HTML 2.2 %) :contentReference[oaicite:3]{index=3}
-- **TypeScript**: Presencia menor (≈ 1 %) :contentReference[oaicite:4]{index=4}
-- Posible uso de **Stackbit** como generador de sitio (debido al archivo `stackbit.config.ts`) :contentReference[oaicite:5]{index=5}
+</details>
 
 ---
 
-##  Instalación y ejecución local
+## Sobre el Proyecto
 
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/IgnacioP46/Porfolio.git
-   cd Porfolio
-   npm install
-   npm run dev
+Este portfolio muestra proyectos y experiencias personales, sirviendo como carta de presentación online.  
+Incluye páginas dedicadas a proyectos, currículum y contacto.
+
+---
+
+## Estructura del Proyecto
+
+- **components/** – Componentes UI reutilizables.  
+- **data/** – Contenido estático o información de configuración.  
+- **pages/** – Páginas como inicio, proyectos, contacto.  
+- **public/assets/** – Recursos multimedia (imágenes, iconos).  
+- **utils/** – Funciones auxiliares.  
+- **index.html**, **main.js**, **style.css** – Archivos principales.  
+- **package.json**, **package-lock.json** – Gestión de dependencias.  
+- **stackbit.config.ts** – Configuración de Stackbit (o similar).  
+
+---
+
+## Tecnologías
+
+- **HTML**, **CSS**, **JavaScript** (≈ 60 %, 37 %, 2 % respectivamente)  
+- **TypeScript** (~1 %)  
+- **Stackbit** (archivo de configuración presente)  
+
+---
+
+## Instalación y Ejecución Local
+
+```bash
+git clone https://github.com/IgnacioP46/Porfolio.git
+cd Porfolio
+npm install
+npm run dev
+Luego abre tu navegador en http://localhost:3000.
+```
+
+
+---
+
+
+## Despliegue
+
+- **Puedes alojarlo fácilmente con GitHub Pages:/** - Entra en Settings → Pages.
+- **Selecciona la rama main (o master)./**
+- **Obtendrás una URL tipo:/** - https://IgnacioP46.github.io/Porfolio/
+
+---
+
+
+## Contribuir
+
+- Haz un fork del proyecto.
+- Crea una nueva rama (git checkout -b feature/NuevaFeature).
+- Realiza los cambios y haz commit (git commit -m 'Agrego nueva feature').
+- Envía la rama (git push origin feature/NuevaFeature).
+- Abre un Pull Request.
