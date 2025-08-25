@@ -1,4 +1,13 @@
 export const projects = [
+      {
+    title: "ADGES",
+    description: "Proyecto desarrollado con ReactJS como parte del Proyecto 2 - ReactJS. La aplicación simula la web corporativa de una empresa de administración de fincas, con diseño responsive y funcionalidades completas.",
+    image: "./assets/ProyectoReact.png",
+    tech: ["HTML5", "CSS3", "JavaScript", "VITE", "React"],
+    github: "https://github.com/IgnacioP46/Proyecto2-ReactJS.git",
+    link: "https://pruebaadges.netlify.app/",
+    tipo: "proyecto"
+  },
    {
     title: "Murmullo Records",
     description: "Murmullo Records es una tienda web de música especializada en la venta de vinilos y cassettes. El proyecto está diseñado para ofrecer una experiencia de usuario fluida y moderna, donde los clientes pueden explorar una amplia colección de discos, ver detalles de cada producto, agregar artículos al carrito y realizar compras de manera sencilla.",
@@ -124,4 +133,5 @@ export const CVInfo = {
 };
 
 export default CVInfo;
+
 
