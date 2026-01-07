@@ -2,7 +2,7 @@ export const projects = [
       {
     title: "Discos Rizos",
     description: "Discos Rizos es un proyecto realizado en Master en Desarrollo Web, donde hemos creado una tienda web de música especializada en la venta de vinilos y cassettes. El proyecto está diseñado para ofrecer una experiencia de usuario fluida y moderna, donde los clientes pueden explorar una amplia colección de discos, ver detalles de cada producto, agregar artículos al carrito y realizar compras de manera sencilla.",
-    image: "./assets/prpyectoFinalMaster.png",
+    image: "./assets/proyectoFinalMaster.png",
     tech: ["HTML5", "CSS3", "JavaScript", "VITE", "React", "Node.js", "MongoDB", "Express", "Stripe", "Onrender", "Netlify", "Tailwind CSS", "Figma"],
     github: "https://github.com/IgnacioP46/ProyectoFinal2.git",
     link: "https://discosderizos.netlify.app/",
@@ -142,6 +142,7 @@ export const CVInfo = {
 };
 
 export default CVInfo;
+
 
 
 
